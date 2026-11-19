@@ -17,7 +17,7 @@
 | Διαχειριστική Αναφορά & PDF | μόνο η Μεγάλη Γραμματεία | `…/GrandOfficersVisitsRepresentGM/#report` |
 
 Το «Πρόγραμμα Επισκέψεων Μ.Δ.» είναι η ζωντανή σελίδα
-https://nglg-gsec.github.io/NGLG-Grand-Secretary/programme/ ενσωματωμένη.
+https://webappngdsib.github.io/NGLG-Grand-Secretary/programme/ ενσωματωμένη.
 
 **Αναφορά χωρίς κωδικό.** Η καρτέλα της αναφοράς είναι κρυφή. Ανοίγει με
 «Σύνδεση με Google» για τους λογαριασμούς:
@@ -50,7 +50,7 @@ info@nglgreece.gr (λίστα `DEFAULT_ADMIN_EMAILS` στο `Code.gs`, ή ιδι
 5. Για «Σύνδεση με Google»: **Ιδιότητες σεναρίου → Προσθήκη ιδιότητας**
    `GOOGLE_CLIENT_ID` = το Google OAuth Client ID (το ίδιο με τις Ρυθμίσεις
    της Ψηφιακής Μεγάλης Γραμματείας· στο Google Cloud πρέπει να έχει
-   Authorized JavaScript origin `https://nglg-gsec.github.io`).
+   Authorized JavaScript origin `https://webappngdsib.github.io`).
 6. Στο `index.html` βάλτε το URL στη γραμμή:
    ```js
    const API_URL = "https://script.google.com/macros/s/.../exec";
